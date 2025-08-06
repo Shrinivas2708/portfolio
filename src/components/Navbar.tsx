@@ -57,10 +57,13 @@ function Navbar() {
     },
   ];
   return (
-    <div className="fixed top-10 left-1/2 z-50 h-[50px]  -translate-x-1/2 rounded-2xl ">
-        <FloatingDock items={links} >
+    <div className="fixed  z-50  ">
+       <FloatingDock
+  items={links}
+  desktopClassName="top-6 left-1/2 -translate-x-1/2"
+  mobileClassName="bottom-5 right-4"
+/>
 
-        </FloatingDock>
     </div>
   );
 }
