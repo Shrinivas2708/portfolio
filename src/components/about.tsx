@@ -4,13 +4,13 @@ import { BLUR_DELAY } from "../lib/utils";
 
 function About() {
   return (
-    <div className="mt-[7rem] flex flex-col gap-4 text-lg leading-relaxed">
+    <div className="mt-[4rem] md:mt-[5rem] flex flex-col gap-4 text-lg leading-relaxed text-balance">
       <BlurFade delay={BLUR_DELAY * 5}>
         <h1 className="text-2xl font-semibold">About</h1>
       </BlurFade>
 
       <BlurFade delay={BLUR_DELAY * 6}>
-        <p>
+        <p className="leading-relaxed text-justify">
           I’m <span className="font-bold">Shrinivas Sherikar</span>, a curious and passionate{" "}
           <span className="font-bold">developer</span> who thrives on solving problems
           and creating products that scale while delighting users. With a{" "}
@@ -25,7 +25,7 @@ function About() {
       </BlurFade>
 
       <BlurFade delay={BLUR_DELAY * 7}>
-        <p>
+        <p className="leading-relaxed text-justify">
           I craft <span className="font-bold">Frontends</span> that look exceptional and{" "}
           <span className="font-bold">Backends</span> that scale effortlessly. My
           expertise spans Full Stack Development (web & mobile) with{" "}
