@@ -1,12 +1,22 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { BLUR_DELAY, SkillsData } from "../lib/utils";
 import { BlurFade } from "./blur-fade";
-import { ProjectData } from "../lib/projectData";
+import { Categories, ProjectData } from "../lib/projectData";
 import { LinkPreview } from "./link-preview";
 import { IconBrandGithub, IconLink } from "@tabler/icons-react";
+import { useEffect } from "react";
 
 export default function ProjectDetail() {
   const { category } = useParams();
+  const navigate = useNavigate()
+   useEffect(()=>{
+    if(!category || !Categories.includes(category)){
+      navigate("/")
+      return
+  }
+  },[category])
+  
+ 
   const filtered = ProjectData.filter((p) => p.category === category);
 
   return (
