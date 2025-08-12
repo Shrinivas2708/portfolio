@@ -8,7 +8,7 @@ const Container = ({
   children: React.ReactNode;
   className?: string;
 }) => {
-  return <div className={cn("max-w-3xl mx-auto px-4 md:py-8  relative",className)}>{children}</div>;
+  return <div className={cn("max-w-3xl mx-auto px-4 md:py-8  relative scroll-smooth",className)}>{children}</div>;
 };
 
 export default Container;

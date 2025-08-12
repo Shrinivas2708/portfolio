@@ -1,44 +1,22 @@
-// import React from 'react'
-
-import { IconBrandGithub, IconLink } from "@tabler/icons-react";
+import { useParams } from "react-router-dom";
 import { BLUR_DELAY, SkillsData } from "../lib/utils";
 import { BlurFade } from "./blur-fade";
+import { ProjectData } from "../lib/projectData";
 import { LinkPreview } from "./link-preview";
+import { IconBrandGithub, IconLink } from "@tabler/icons-react";
 
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { Categories, ProjectData } from "../lib/projectData";
+export default function ProjectDetail() {
+  const { category } = useParams();
+  const filtered = ProjectData.filter((p) => p.category === category);
 
-
-function Projects() {
-  const [activeCategory, setActiveCategory] = useState("Full Stack Project");
-  const filteredProjects = ProjectData.filter(
-    (p) => p.category === activeCategory,
-  );
-  // console.log(activeCategory);
-  const navigate = useNavigate();
   return (
-    <div className="mt-[3rem] md:mt-[5rem]">
+    <div >
       <BlurFade delay={BLUR_DELAY * 13}>
-        <p className="text-2xl font-semibold">Projects</p>
+        <p className="text-2xl font-semibold">{category}</p>
       </BlurFade>
-      <BlurFade delay={BLUR_DELAY * 14}>
-        <div className="scrollbar-hide mt-4 flex gap-2 divide-x divide-gray-300 overflow-x-auto border-b border-gray-300 text-sm md:text-base">
-          {Categories.map((v, i) => {
-            return (
-              <p
-                key={i}
-                className={`w-full cursor-pointer p-3 text-center whitespace-nowrap ${activeCategory === v ? "font-semibold text-blue-500" : ""}`}
-                onClick={() => setActiveCategory(v)}
-              >
-                {v}
-              </p>
-            );
-          })}
-        </div>
-      </BlurFade>
+
       <div className="mt-5 flex flex-col gap-3">
-        {filteredProjects.slice(0,3).map((v, i) => {
+        {filtered.map((v, i) => {
           return (
             <BlurFade delay={BLUR_DELAY * 15 + i * 0.05} key={i}>
               <LinkPreview url={v.videoLink} link={v.link}>
@@ -112,15 +90,6 @@ function Projects() {
           );
         })}
       </div>
-      <BlurFade delay={BLUR_DELAY * 16}>
-        <div className="mt-3 flex justify-center">
-          <p className="cursor-pointer rounded-lg border border-gray-300 p-2 text-gray-500" onClick={()=> navigate(`/projects/${encodeURIComponent(activeCategory)}`)}>
-            View more
-          </p>
-        </div>
-      </BlurFade>
     </div>
   );
 }
-
-export default Projects;

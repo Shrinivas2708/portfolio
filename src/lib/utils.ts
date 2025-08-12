@@ -27,3 +27,4 @@ export const SkillsData = [
   { name: "Java", imgUrl: "https://ik.imagekit.io/3ikmrta4w/java-svgrepo-com.svg" },
   { name: "GraphQL", imgUrl: "https://ik.imagekit.io/3ikmrta4w/graphql-svgrepo-com.svg?updatedAt=1754935752857" },
 ];
+
