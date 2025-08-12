@@ -5,12 +5,24 @@ import { BLUR_DELAY } from "../lib/utils";
 import { BlurFade } from "./blur-fade";
 import { SparklesText } from "./spark";
 import { TypingAnimation } from "./typing";
+import profile from "/profilebg.png"
 function Hero() {
   return (
     <div>
       <BlurFade delay={BLUR_DELAY}>
-        <div className="h-30 w-30 rounded-full border border-black/10 bg-slate-100"></div>
-      </BlurFade>
+  <div className="relative h-35 w-35 group perspective">
+    {/* Background layer */}
+    <div className="absolute inset-0 rounded-full bg-[#ffebd4] transition-transform duration-500 group-hover:-translate-z-10"></div>
+    
+    {/* Image layer */}
+    <img
+      src={profile}
+      alt=""
+      className="relative z-10 rounded-full  transition-transform duration-500 transform group-hover:scale-110 group-hover:-translate-y-2"
+    />
+  </div>
+</BlurFade>
+
       <div className="mt-5 space-y-2">
         <BlurFade delay={BLUR_DELAY * 2}>
           <p className="text-lg font-medium md:text-lg">Hey 👋 i'm,</p>

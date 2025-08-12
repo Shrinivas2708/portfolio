@@ -5,3 +5,10 @@
     font-family: 'Montserrat', sans-serif;
   }
 }
+.perspective {
+  perspective: 1000px;
+}
+
+.group-hover img {
+  transform: translateZ(30px) scale(1.1);
+}

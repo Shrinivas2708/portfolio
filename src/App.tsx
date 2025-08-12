@@ -1,4 +1,5 @@
 
+import { Toaster } from 'sonner'
 import About from './components/about'
 import Certification from './components/certification'
 import Contact from './components/contact'
@@ -19,7 +20,7 @@ const App = () => {
 
   </div>
 
-
+<Toaster position='top-right'/>
   <Navbar/>
     <Container  className="md:mt-34 mt-24">
       <Hero />
