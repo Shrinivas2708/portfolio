@@ -132,6 +132,11 @@ console.log(activeCategory)
           );
         })}
       </div>
+      <BlurFade delay={BLUR_DELAY * 16}>
+        <div className="flex justify-center mt-3"><p className="p-2 text-gray-500 border border-gray-300 rounded-lg cursor-pointer">View more</p></div>
+   
+      </BlurFade>
+    
     </div>
   );
 }

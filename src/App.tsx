@@ -1,6 +1,11 @@
 
 import About from './components/about'
+import Certification from './components/certification'
+import Contact from './components/contact'
 import Container from './components/container'
+import Education from './components/education'
+import Experience from './components/experience'
+import Footer from './components/footer'
 import Hero from './components/hero'
 import Navbar from './components/Navbar'
 import Projects from './components/projects'
@@ -21,6 +26,11 @@ const App = () => {
       <About />
       <Skills />
       <Projects />
+      <Experience/>
+      <Education />
+      <Certification />
+      <Contact/>
+      <Footer/>
     </Container>
   </div>
       

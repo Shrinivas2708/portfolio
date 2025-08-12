@@ -32,8 +32,8 @@ export const LinkPreview = ({
   className,
   width = 400,
   height = 200,
-  quality = 50,
-  layout = "fixed",
+  // quality = 50,
+  // layout = "fixed",
   isStatic = false,
   imageSrc = "",
   link = ""
