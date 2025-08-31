@@ -37,9 +37,9 @@ export const ProjectData = [
     videoLink: uptimepulseVid,
     description:
       "Created an AI-powered blogging platform with automated summaries, tag suggestions, and cover image generation using GraphQL API, Prisma ORM, and PostgreSQL.",
-    stack: ["Express", "Postgresql", "React", "Prisma", "GraphQL"],
-    link: "https://writeflow.shriii.xyz",
-    repoLink: "https://github.com/Shrinivas2708/writeflow",
+    stack: ["Express", "Mongo", "React", "Prisma", "Turborepo","Tanstack"],
+    link: "https://uptimepulse.shriii.xyz",
+    repoLink: "https://github.com/Shrinivas2708/uptimepulse",
     category: "Full Stack Project",
   },
   {
