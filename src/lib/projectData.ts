@@ -6,7 +6,8 @@ import hostic from "/Hostic.png";
 import muzz from "/muzz.png";
 import logify from "/logify.jpeg";
 import logifyVid from "/logify.mp4";
-
+import uptimepulseVid from "/uptimepulse.mp4"
+import uptimepulse from "/uptimepulse.png"
 export const ProjectData = [
   {
     title: "Hostic",
@@ -20,17 +21,6 @@ export const ProjectData = [
     category: "Full Stack Project",
   },
   {
-    title: "Muzz",
-    imgLink: muzz,
-    videoLink: muzzVid,
-    description:
-      "Built a real-time collaborative music streaming web app where users can create rooms, queue songs, and vote tracks using Socket.IO, MongoDB, and Express.",
-    stack: ["Express", "MongoDB", "React", "Socket"],
-    link: "https://muzz.shriii.xyz",
-    repoLink: "https://github.com/Shrinivas2708/muzz",
-    category: "Full Stack Project",
-  },
-  {
     title: "Writeflow",
     imgLink: writeflow,
     videoLink: writeflowVid,
@@ -41,6 +31,29 @@ export const ProjectData = [
     repoLink: "https://github.com/Shrinivas2708/writeflow",
     category: "Full Stack Project",
   },
+  {
+    title: "UptimePulse",
+    imgLink: uptimepulse,
+    videoLink: uptimepulseVid,
+    description:
+      "Created an AI-powered blogging platform with automated summaries, tag suggestions, and cover image generation using GraphQL API, Prisma ORM, and PostgreSQL.",
+    stack: ["Express", "Postgresql", "React", "Prisma", "GraphQL"],
+    link: "https://writeflow.shriii.xyz",
+    repoLink: "https://github.com/Shrinivas2708/writeflow",
+    category: "Full Stack Project",
+  },
+  {
+    title: "Muzz",
+    imgLink: muzz,
+    videoLink: muzzVid,
+    description:
+      "Built a real-time collaborative music streaming web app where users can create rooms, queue songs, and vote tracks using Socket.IO, MongoDB, and Express.",
+    stack: ["Express", "MongoDB", "React", "Socket"],
+    link: "https://muzz.shriii.xyz",
+    repoLink: "https://github.com/Shrinivas2708/muzz",
+    category: "Full Stack Project",
+  },
+  
   {
     title: "Logify",
     imgLink: logify,
