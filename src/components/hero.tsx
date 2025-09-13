@@ -6,6 +6,7 @@ import { BlurFade } from "./blur-fade";
 import { SparklesText } from "./spark";
 import { TypingAnimation } from "./typing";
 import profile from "/profilebg.png"
+import resume from "/Shrinivas Sherikar.pdf"
 function Hero() {
   return (
     <div>
@@ -61,7 +62,7 @@ function Hero() {
         </BlurFade>
         <div className="mt-8 flex items-center gap-2 md:gap-3">
           <BlurFade delay={BLUR_DELAY * 8} direction="right">
-            <div className="flex cursor-pointer rounded-4xl border bg-black px-3 py-3 text-white md:px-4 md:py-3">
+            <div className="flex cursor-pointer rounded-4xl border bg-black px-3 py-3 text-white md:px-4 md:py-3" onClick={()=> window.open(resume)}>
               <span className="text-xs md:text-base"> Download CV</span>
             </div>
           </BlurFade>
