@@ -8,6 +8,8 @@ import logify from "/logify.jpeg";
 import logifyVid from "/logify.mp4";
 import uptimepulseVid from "/uptimepulse.mp4"
 import uptimepulse from "/uptimepulse.png"
+import quizforge from "/quizforge.png"
+import quizforgeVid from "/quizforge.mp4"
 export const ProjectData = [
   {
     title: "Hostic",
@@ -21,14 +23,14 @@ export const ProjectData = [
     category: "Full Stack Project",
   },
   {
-    title: "Writeflow",
-    imgLink: writeflow,
-    videoLink: writeflowVid,
+    title: "QuizForge",
+    imgLink: quizforge,
+    videoLink: quizforgeVid,
     description:
-      "Created an AI-powered blogging platform with automated summaries, tag suggestions, and cover image generation using GraphQL API, Prisma ORM, and PostgreSQL.",
-    stack: ["Express", "Postgresql", "React", "Prisma", "GraphQL"],
-    link: "https://writeflow.shriii.xyz",
-    repoLink: "https://github.com/Shrinivas2708/writeflow",
+      "Created an intelligent, AI-driven platform that transforms any syllabus into a comprehensive and interactive quiz. Designed for students and educators.",
+    stack: ["Hono", "Postgresql", "React", "Drizzle", "Tanstack"],
+    link: "https://quizforge.shriii.xyz",
+    repoLink: "https://github.com/Shrinivas2708/quizforge",
     category: "Full Stack Project",
   },
   {
@@ -40,6 +42,17 @@ export const ProjectData = [
     stack: ["Express", "Mongo", "React", "Prisma", "Turborepo","Tanstack"],
     link: "https://uptimepulse.shriii.xyz",
     repoLink: "https://github.com/Shrinivas2708/uptimepulse",
+    category: "Full Stack Project",
+  },
+    {
+    title: "Writeflow",
+    imgLink: writeflow,
+    videoLink: writeflowVid,
+    description:
+      "Created an AI-powered blogging platform with automated summaries, tag suggestions, and cover image generation using GraphQL API, Prisma ORM, and PostgreSQL.",
+    stack: ["Express", "Postgresql", "React", "Prisma", "GraphQL"],
+    link: "https://writeflow.shriii.xyz",
+    repoLink: "https://github.com/Shrinivas2708/writeflow",
     category: "Full Stack Project",
   },
   {

@@ -26,5 +26,7 @@ export const SkillsData = [
   { name: "Nginx", imgUrl: "https://ik.imagekit.io/3ikmrta4w/nginx-svgrepo-com.svg" },
   { name: "Java", imgUrl: "https://ik.imagekit.io/3ikmrta4w/java-svgrepo-com.svg" },
   { name: "GraphQL", imgUrl: "https://ik.imagekit.io/3ikmrta4w/graphql-svgrepo-com.svg?updatedAt=1754935752857" },
+  { name: "Tanstack",imgUrl: "https://ik.imagekit.io/3ikmrta4w/tanstack.png"},
+  { name: "Hono",imgUrl: "https://ik.imagekit.io/3ikmrta4w/hono.png"}
 ];
 
