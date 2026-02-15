@@ -9,7 +9,6 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,6 +19,7 @@
     "@tabler/icons-react": "^3.34.1",
     "@tailwindcss/vite": "^4.1.11",
     "clsx": "^2.1.1",
+    "framer-motion": "^12.34.0",
     "motion": "^12.23.12",
     "qss": "^3.0.0",
     "react": "^19.1.0",
