@@ -18,7 +18,7 @@ export const ProjectData = [
     description:
       "Developed a frontend hosting platform inspired by Vercel, enabling rapid deployment of static sites with Docker-based builds, Express backend, and MongoDB integration.",
     stack: ["Express", "MongoDB", "React", "Docker"],
-    link: "https://hostic.shriii.xyz",
+    link: "https://hostic.shribuilds.in",
     repoLink: "https://github.com/",
     category: "Full Stack Project",
   },
@@ -29,7 +29,7 @@ export const ProjectData = [
     description:
       "Created an intelligent, AI-driven platform that transforms any syllabus into a comprehensive and interactive quiz. Designed for students and educators.",
     stack: ["Hono", "Postgresql", "React", "Drizzle", "Tanstack"],
-    link: "https://quizforge.shriii.xyz",
+    link: "https://quizforge.shribuilds.in",
     repoLink: "https://github.com/Shrinivas2708/quizforge",
     category: "Full Stack Project",
   },
@@ -40,7 +40,7 @@ export const ProjectData = [
     description:
       "Created an AI-powered blogging platform with automated summaries, tag suggestions, and cover image generation using GraphQL API, Prisma ORM, and PostgreSQL.",
     stack: ["Express", "Mongo", "React", "Prisma", "Turborepo","Tanstack"],
-    link: "https://uptimepulse.shriii.xyz",
+    link: "https://uptimepulse.shribuilds.in",
     repoLink: "https://github.com/Shrinivas2708/uptimepulse",
     category: "Full Stack Project",
   },
@@ -51,7 +51,7 @@ export const ProjectData = [
     description:
       "Created an AI-powered blogging platform with automated summaries, tag suggestions, and cover image generation using GraphQL API, Prisma ORM, and PostgreSQL.",
     stack: ["Express", "Postgresql", "React", "Prisma", "GraphQL"],
-    link: "https://writeflow.shriii.xyz",
+    link: "https://writeflow.shribuilds.in",
     repoLink: "https://github.com/Shrinivas2708/writeflow",
     category: "Full Stack Project",
   },
@@ -62,7 +62,7 @@ export const ProjectData = [
     description:
       "Built a real-time collaborative music streaming web app where users can create rooms, queue songs, and vote tracks using Socket.IO, MongoDB, and Express.",
     stack: ["Express", "MongoDB", "React", "Socket"],
-    link: "https://muzz.shriii.xyz",
+    link: "https://muzz.shribuilds.in",
     repoLink: "https://github.com/Shrinivas2708/muzz",
     category: "Full Stack Project",
   },
